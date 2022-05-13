@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <ProductList products={products} setBasket={setBasket} />
+      <ProductList products={products} basket={basket} setBasket={setBasket} />
       <BasketContainer setBasket={setBasket} basket={basket} />
     </div>
   );
