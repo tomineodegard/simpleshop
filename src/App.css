@@ -1,3 +1,12 @@
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
 .App {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -9,4 +18,9 @@
 
 .App > * {
     border: 1px solid #000;
+}
+
+.product_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
