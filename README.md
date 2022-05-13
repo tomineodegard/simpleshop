@@ -4,7 +4,7 @@ School project on 3rd semester, created with React
 
 ### Live demo:
 
-https://tomineodegard.github.io/simpleshop/
+tomineodegard-simpleshop.netlify.app
 
 ## This was the assignment, and the suggested process:
 
