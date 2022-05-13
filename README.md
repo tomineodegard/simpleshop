@@ -1,10 +1,10 @@
-## SimpleShop
+# SimpleShop
 
 School project on 3rd semester, created with React
 
 LIVE DEMO: coming...
 
-# This was the assignment, and the suggested process:
+## This was the assignment, and the suggested process:
 
 1. Create a new project
 2. Create the components from the screenshot
