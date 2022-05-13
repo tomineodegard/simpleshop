@@ -2,7 +2,9 @@
 
 School project on 3rd semester, created with React
 
-LIVE DEMO: coming...
+### Live demo:
+
+... coming soon
 
 ## This was the assignment, and the suggested process:
 
