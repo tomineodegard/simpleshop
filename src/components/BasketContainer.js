@@ -3,7 +3,9 @@ import CheckoutForm from "./CheckoutForm";
 
 export default function BasketContainer(props) {
     return (
-        <section>
+        
+        <section className="basket_container hide_basket">
+            
             <Basket setBasket={props.setBasket} basket={props.basket} />
             <CheckoutForm/>
         </section>

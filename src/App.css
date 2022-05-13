@@ -7,21 +7,105 @@ img {
     max-width: 100%;
 }
 
+.hidden {
+    display: none;
+}
+
+.hide_basket {
+    display: block;
+}
+
 .App {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    margin: 3.5rem;
+    gap: 2rem;
 }
 
 .App nav {
     grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
 }
 
-.App > * {
-    border: 1px solid #000;
-}
 
 .product_list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+
 }
+
+.basket_container {
+    padding: 1rem;
+    border-radius: 0.2rem;
+    background-color: rgb(223, 223, 223);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+    border: 1px black solid;
+    border-radius: 0.2rem;
+    padding: 0.6rem;
+}
+
+.basket_div {
+		display: flex;
+		justify-content: space-between;
+}
+
+form {
+    display: grid;
+    gap: 0.8rem;
+}
+
+
+.product_card {
+    flex: 1 1 200px;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+   .App {
+        grid-template-columns: 1fr;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .hide_basket {
+        display: none;
+    }
+
+    .basket_container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+    }
+
+}
+    
+    
