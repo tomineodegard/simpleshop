@@ -4,7 +4,7 @@ School project on 3rd semester, created with React
 
 ### Live demo:
 
-... coming soon
+https://tomineodegard.github.io/simpleshop/
 
 ## This was the assignment, and the suggested process:
 
