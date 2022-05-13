@@ -6,6 +6,7 @@ School project on 3rd semester, created with React
 
 tomineodegard-simpleshop.netlify.app
 
+
 ## This was the assignment, and the suggested process:
 
 1. Create a new project
