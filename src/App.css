@@ -7,17 +7,10 @@ img {
     max-width: 100%;
 }
 
-.hidden {
-    display: none;
-}
-
-.hide_basket {
-    display: block;
-}
 
 .App {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr;
     margin: 3.5rem;
     gap: 2rem;
 }
@@ -85,27 +78,4 @@ form {
     justify-content: space-between;
 }
 
-@media (max-width: 850px) {
-   .App {
-        grid-template-columns: 1fr;
-    }
-
-    .hidden {
-        display: block;
-    }
-
-    .hide_basket {
-        display: none;
-    }
-
-    .basket_container {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-
-    }
-
-}
-    
     
